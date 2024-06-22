@@ -145,7 +145,36 @@ Humans are known to be unreliable. Configuration errors by operators were the le
 
 <br>
 
-<!-- Pick Here -->
+## 1.4 Maintainability
+
+### 1.4.a Definition
+
+Over time, many different people will work in the system (engineering and operations, bith maintaining current behaviour and adapting the system to new use cases), and they should all be able to work on it _productively_. This can be understood as maintaining the system.
+
+Maintaining a software is more costly than initial development.
+
+### 1.4.b It Involves:
+
+- fixing bugs,
+- keeping system operational,
+- adapting it to new platform,
+- modifying it for new use cases,
+- repaying technical debt and,
+- adding new feature.
+
+people may dislike maintenance of legacy system because:
+
+- it involes fixing other's mistakes,
+- working with outdated platforms,
+- or using tools in a way that was never intended.
+
+### 1.4.c Design Principles
+
+for software system maintainability, 3 _design principles_ are used:
+
+- Operability
+- Simplicity
+- Evolvability
 
 ## Buzzwords
 
