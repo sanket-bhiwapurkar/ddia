@@ -82,6 +82,27 @@ Increae the rate of faults by triggering then deliberately. By doing this, you e
 
 We generally prefer tolerating faults over prreventing faults. But there are cases where prevention is better than cure because no cure exists. Eg, then attacker gains access to sensitive data. This can't be undone so better prevent.
 
+### 1.2.1 Hardware Faults
+
+- Hard disk crash
+- Faulty RAM
+- Power grid blackout
+
+#### Hardware Redundancy and Software fault-tolerance technique
+
+Adding hardware redundancy is the first solution to reduce failure rate. Mean, when one component dies, the redundant component can ake its place while the broken component is replaced. Not a complete prevention buy hey, it keeps the system alive for a long time.
+
+Faster the replacement lower the downtime.
+
+Because of increase in data volumes of apps, they use a large set of machines and hence increase the fault rate.
+
+Therefore software fault-tolerance technique is prefered over or added to hardware redundancy.
+
+Operational Advantage:
+
+- Planned downtime in case of single-server system if machine reboot is required (eg., security patch installation) and,
+- rolling upgrade in case of failure-tolerant machine, means patching one node at a time without downtime of the entire machine.
+
 ## Buzzwords
 
 - Crunch 1.0.b
@@ -91,3 +112,7 @@ We generally prefer tolerating faults over prreventing faults. But there are cas
 - Elasticsearch - searching - 1.1
 - Solr - searching - 1.1
 - The Netflix Chaos Monkey - fault handling - 1.2
+- Mean time to failure (MTTF) - 1.2.1
+- RAID configuration - hardware redundancy - 1.2.1
+- Dual power supplies - hardware redundancy - 1.2.1
+- Hot-swappable CPUs - hardware redundancy - 1.2.1
