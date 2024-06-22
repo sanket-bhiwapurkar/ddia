@@ -131,6 +131,22 @@ Often lie dormant and triggered by an unusual set of circumstances.
 
 <br>
 
+### 1.2.3 Human Errors
+
+Humans are known to be unreliable. Configuration errors by operators were the leading cause of outage.
+
+#### How do we make systems more reliable?
+
+- Well-designed abstractions, APIs, and admin interfaces. However, don't be too restrictive.
+- Thorough Testing - unit tests to whole-system integration tests, manual tests, automated tests.
+- Make system easy to roll back in case of faults. Roll out new code gradually.
+- set up detailed and clear monitoring, such as performance metrics and error rates - _telemerty_, to check assumptions.
+- Implement good management practices and training.
+
+<br>
+
+<!-- Pick Here -->
+
 ## Buzzwords
 
 - Crunch 1.0.b
