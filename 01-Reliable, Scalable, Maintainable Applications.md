@@ -170,11 +170,33 @@ people may dislike maintenance of legacy system because:
 
 ### 1.4.c Design Principles
 
-for software system maintainability, 3 _design principles_ are used:
+for software system maintainability, 3 _design principles_ are used (SEO):
 
-- Operability
 - Simplicity
+- Operability
 - Evolvability
+
+### 1.4.1 Operability: Making Life Easy for Operations
+
+Make it easy for operations teams to keep he system running smoothly.
+
+Operations teams are vital to keeping a software system running smoothly. They are responsible for:
+
+- Monitoring the health of the system and quickly restoring services when failure.
+- Tracking down the cause of system failures or degraded performance.
+- Keeping software updated.
+- Keeping track on how one system affect the other so that a problematic change can be avoided.
+- Anticipating and solving future problems beforehand.
+- Establishing good practices and tools for deployment and configuration management.
+- Avoiding dependency on individual machines.
+- Exhibiting predictable behavior, minimizing surprises.
+- good documentation of the system.
+
+### 1.4.2 Simplicity: Managing Complexity
+
+<!-- Pick Here -->
+
+### 1.4.3 Evolvability
 
 ## Buzzwords
 
